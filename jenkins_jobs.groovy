@@ -3,9 +3,3 @@ job("First Job") {
     shell("echo 'First!'") 
   }
 }
-
-job("Second Job") { 
-  steps { 
-    shell("echo 'second :-('") 
-  }
-}
